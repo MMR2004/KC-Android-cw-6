@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69E5F3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="125dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/boy"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/Namestudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:background="#A9FFFFFF"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Agestudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:background="#A9FFFFFF"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/gradestudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:background="#A9FFFFFF"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/changePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:backgroundTint="#0288D1"
+        android:text="Button" />
+
+</LinearLayout>
